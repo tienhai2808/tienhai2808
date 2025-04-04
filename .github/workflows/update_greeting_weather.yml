@@ -1,0 +1,35 @@
+name: Update Greeting & Weather
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Chạy mỗi ngày lúc 0h UTC (7h sáng VN)
+  workflow_dispatch:  # Cho phép chạy thủ công nếu cần
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests pytz
+
+      - name: Generate greeting & weather
+        env:
+          OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
+        run: python update_greeting_weather.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update greeting and weather" || echo "No changes to commit"
+          git push
