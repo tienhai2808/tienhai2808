@@ -1,3 +1,6 @@
+# ☁️ Đà Nẵng: 24.99°C
+### 🌅 Chào buổi sáng! Hôm nay bạn đã code chưa?
+
 # ☁️ Đà Nẵng: 21.99°C
 ### 🌃 Khuya rồi! Nghỉ ngơi đi coder ơi!
 
