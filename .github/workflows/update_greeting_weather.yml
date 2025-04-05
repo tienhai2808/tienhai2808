@@ -2,8 +2,12 @@ name: Update Greeting & Weather
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Chạy mỗi ngày lúc 0h UTC (7h sáng VN)
-  workflow_dispatch:  # Cho phép chạy thủ công nếu cần
+    - cron: "0 22 * * *"
+    - cron: "0 4 * * *"
+    - cron: "0 7 * * *"  
+    - cron: "0 11 * * *"
+    - cron: "0 16 * * *"
+  workflow_dispatch:  
 
 jobs:
   update-readme:
