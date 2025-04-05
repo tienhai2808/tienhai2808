@@ -61,10 +61,17 @@ with open("README.md", "r", encoding="utf-8") as f:
 filtered_content = []
 skip = False
 for line in content:
-  if line.startswith("# 🌅") or line.startswith("# 🍜") or line.startswith("# 🌞") or line.startswith("# 🌙") or line.startswith("# 🌃"):
+  if (line.startswith("# ⛈️") or line.startswith("# 🌦️") or line.startswith("# 🌧️") or 
+      line.startswith("# ❄️") or line.startswith("# 🌫️") or line.startswith("# ☀️") or 
+      line.startswith("# ☁️") or line.startswith("# 🌡️") or 
+      line.startswith("# 🌅") or line.startswith("# 🍜") or line.startswith("# 🌞") or 
+      line.startswith("# 🌙") or line.startswith("# 🌃")):
     skip = True 
     continue
-  if skip and (line.startswith("Thời tiết hiện tại ở") or line.startswith("# ⛈️") or line.startswith("# 🌦️") or line.startswith("# 🌧️") or line.startswith("# ❄️") or line.startswith("# 🌫️") or line.startswith("# ☀️") or line.startswith("# ☁️") or line.startswith("# 🌡️")):
+  if skip and (line.startswith("Thời tiết hiện tại ở") or 
+               line.startswith("# ⛈️") or line.startswith("# 🌦️") or line.startswith("# 🌧️") or 
+               line.startswith("# ❄️") or line.startswith("# 🌫️") or line.startswith("# ☀️") or 
+               line.startswith("# ☁️") or line.startswith("# 🌡️")):
     continue
   if skip and line.startswith("### "):
     continue
@@ -72,7 +79,7 @@ for line in content:
     skip = False
     continue
   filtered_content.append(line)
-  
+
 final_content = new_content + filtered_content
 
 with open("README.md", "w", encoding="utf-8") as f:
