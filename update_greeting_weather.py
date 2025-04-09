@@ -47,7 +47,7 @@ try:
   current_temp = data["main"]["temp"]
   weather_id = data["weather"][0]["id"]
   weather_icon = get_weather_icon(weather_id)
-  weather_text = f"# {weather_icon} Đà Nẵng: {current_temp}°C\n"
+  weather_text = f"# {weather_icon} Đà Nẵng: {round(current_temp)}°C\n"
 except Exception as e:
   weather_text = f"# 🌡️ Đà Nẵng: Không thể lấy dữ liệu\n"
 
