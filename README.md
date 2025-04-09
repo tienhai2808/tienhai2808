@@ -1,3 +1,6 @@
+# 🌧️ Đà Nẵng: 26°C
+### 🌞 Chào buổi chiều! Hãy hoàn thành những dòng code cuối cùng!
+
 <div align="center">
   <img align="left" height="253" width="auto" src="coding.gif" />
 
