@@ -2,7 +2,7 @@
 ### 🌞 Chào buổi chiều! Hãy hoàn thành những dòng code cuối cùng!
 
 <div align="center">
-  <img align="left" height="253" width="auto" src="coding.gif" />
+  <img align="left" height="253" width="auto" src="cute_dog.gif" />
 
   <div align="right">
     <img src='https://profile-counter.glitch.me/tienhai2808/count.svg?' />
