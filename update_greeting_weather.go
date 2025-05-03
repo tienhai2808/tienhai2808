@@ -76,14 +76,14 @@ func main() {
 		weatherText = "# 🌡️ Đà Nẵng: Không thể lấy dữ liệu\n"
 	}
 
-	greeting := fmt.Sprintf("### %s\n\n", getGreeting(hour))
+	greeting := fmt.Sprintf("### %s\n", getGreeting(hour))
 
 	contentBytes, err := ioutil.ReadFile("README.md")
 	if err != nil {
 		fmt.Println("Không thể đọc README.md")
 		return
 	}
-	lines := strings.Split(string(contentBytes), "")
+	lines := strings.Split(string(contentBytes), "\n")
 
 	var filteredLines []string
 	skip := false
