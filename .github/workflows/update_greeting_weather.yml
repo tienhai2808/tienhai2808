@@ -22,9 +22,6 @@ jobs:
         with:
           go-version: "1.23"
 
-      # - name: Install dependencies
-      #   run: pip install requests pytz
-
       - name: Generate greeting & weather
         env:
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
