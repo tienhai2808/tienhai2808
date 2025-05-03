@@ -151,20 +151,22 @@ func main() {
 	
 	content := strings.Split(string(data), "\n")
 	filteredContent := []string{}
+	skipBlock := false
 	
-	skip := false
-	for _, line := range content {
+	for i := 0; i < len(content); i++ {
+		line := content[i]
+	
 		if shouldSkipLine(line) {
-			skip = true
+			skipBlock = true
 			continue
 		}
-		
-		if skip && line == "" {
-			skip = false
+
+		if skipBlock && strings.TrimSpace(line) == "" {
+			skipBlock = false
 			continue
 		}
-		
-		if !skip {
+	
+		if !skipBlock {
 			filteredContent = append(filteredContent, line)
 		}
 	}
