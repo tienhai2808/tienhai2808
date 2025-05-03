@@ -17,18 +17,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up GO
+        uses: actions/setup-go@v4
         with:
-          python-version: "3.x"
+          go-version: "1.23"
 
-      - name: Install dependencies
-        run: pip install requests pytz
+      # - name: Install dependencies
+      #   run: pip install requests pytz
 
       - name: Generate greeting & weather
         env:
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
-        run: python update_greeting_weather.py
+        run: go run update_greeting_weather.go
 
       - name: Commit and push changes
         run: |
