@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -101,42 +100,39 @@ func main() {
 		fmt.Sprintf("### %s\n\n", greeting),
 	}
 
-	file, err := os.Open("README.md")
+	readmeContent, err := ioutil.ReadFile("README.md")
 	if err != nil {
-		fmt.Println("Error opening README.md:", err)
-		return
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	var lines []string
-	for scanner.Scan() {
-		lines = append(lines, scanner.Text())
-	}
-
-	if err := scanner.Err(); err != nil {
-		fmt.Println("Error reading file:", err)
+		fmt.Println("Error reading README.md:", err)
 		return
 	}
 
-	var filteredContent []string
+	lines := strings.Split(string(readmeContent), "\n")
+	filteredContent := []string{}
+
 	skip := false
-	for _, line := range lines {
-		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") ||
-			strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") ||
-			strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") ||
-			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") {
+	for i := 0; i < len(lines); i++ {
+		line := lines[i]
+
+		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") || 
+		   strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") || 
+		   strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") || 
+		   strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") {
 			skip = true
+
 			continue
 		}
-
+		
 		if skip && strings.HasPrefix(line, "### ") {
-			continue
+			if strings.Contains(line, "🌅") || strings.Contains(line, "🍜") || 
+			   strings.Contains(line, "🌞") || strings.Contains(line, "🌙") || 
+			   strings.Contains(line, "🌃") {
+				continue
+			}
 		}
 
 		if skip && line == "" {
 			skip = false
-			continue
+			continue  
 		}
 
 		if !skip {
@@ -144,30 +140,12 @@ func main() {
 		}
 	}
 
-	var finalContent []string
-	for _, line := range newContent {
-		finalContent = append(finalContent, strings.TrimRight(line, "\n"))
-	}
-	finalContent = append(finalContent, filteredContent...)
+	finalContent := append(newContent, filteredContent...)
 
-	outputFile, err := os.Create("README.md")
+	outputContent := strings.Join(finalContent, "\n")
+	err = ioutil.WriteFile("README.md", []byte(outputContent), 0644)
 	if err != nil {
-		fmt.Println("Error creating output file:", err)
-		return
-	}
-	defer outputFile.Close()
-
-	writer := bufio.NewWriter(outputFile)
-	for i, line := range finalContent {
-		fmt.Fprintln(writer, line)
-		if i == len(finalContent)-1 && line == "" {
-			continue
-		}
-	}
-
-	err = writer.Flush()
-	if err != nil {
-		fmt.Println("Error writing to file:", err)
+		fmt.Println("Error writing to README.md:", err)
 		return
 	}
 
