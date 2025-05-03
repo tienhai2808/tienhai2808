@@ -83,7 +83,7 @@ func main() {
 		fmt.Println("Không thể đọc README.md")
 		return
 	}
-	lines := strings.Split(string(contentBytes), "\n")
+	lines := strings.Split(string(contentBytes), "")
 
 	var filteredLines []string
 	skip := false
@@ -108,7 +108,7 @@ func main() {
 
 	newLines := []string{weatherText, greeting}
 	finalContent := append(newLines, filteredLines...)
-	output := strings.Join(finalContent, "")
+	output := strings.Join(finalContent, "\n")
 
 	err = ioutil.WriteFile("README.md", []byte(output), 0644)
 	if err != nil {
