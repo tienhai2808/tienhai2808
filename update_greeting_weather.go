@@ -63,7 +63,7 @@ func main() {
 	greeting := getGreeting(hour)
 
 	apiKey := os.Getenv("OPENWEATHERMAP_API_KEY")
-	city := "Da Nang"
+	city := "DaNang"
 	url := fmt.Sprintf("http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&appid=%s&lang=vi", city, apiKey)
 
 	weatherText := ""
