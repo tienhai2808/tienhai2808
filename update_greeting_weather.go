@@ -10,44 +10,36 @@ import (
 	"time"
 )
 
-type WeatherResponse struct {
-	Main struct {
-		Temp float64 `json:"temp"`
-	} `json:"main"`
-	Weather []struct {
-		ID int `json:"id"`
-	} `json:"weather"`
-}
-
 func getWeatherIcon(weatherID int) string {
-	if weatherID >= 200 && weatherID <= 232 {
+	switch {
+	case 200 <= weatherID && weatherID <= 232:
 		return "⛈️"
-	} else if weatherID >= 300 && weatherID <= 321 {
+	case 300 <= weatherID && weatherID <= 321:
 		return "🌦️"
-	} else if weatherID >= 500 && weatherID <= 531 {
+	case 500 <= weatherID && weatherID <= 531:
 		return "🌧️"
-	} else if weatherID >= 600 && weatherID <= 622 {
+	case 600 <= weatherID && weatherID <= 622:
 		return "❄️"
-	} else if weatherID >= 701 && weatherID <= 781 {
+	case 701 <= weatherID && weatherID <= 781:
 		return "🌫️"
-	} else if weatherID == 800 {
+	case weatherID == 800:
 		return "☀️"
-	} else if weatherID >= 801 && weatherID <= 804 {
+	case 801 <= weatherID && weatherID <= 804:
 		return "☁️"
-	} else {
+	default:
 		return "🌡️"
 	}
 }
 
 func getGreeting(hour int) string {
 	switch {
-	case hour >= 5 && hour < 11:
+	case 5 <= hour && hour < 11:
 		return "🌅 Chào buổi sáng! Hôm nay bạn đã code chưa?"
-	case hour >= 11 && hour < 14:
+	case 11 <= hour && hour < 14:
 		return "🍜 Chào buổi trưa! Nghỉ ngơi một chút rồi code tiếp nào!"
-	case hour >= 14 && hour < 18:
+	case 14 <= hour && hour < 18:
 		return "🌞 Chào buổi chiều! Hãy hoàn thành những dòng code cuối cùng!"
-	case hour >= 18 && hour < 23:
+	case 18 <= hour && hour < 23:
 		return "🌙 Chào buổi tối! Push code xong thì đi ngủ sớm nhé!"
 	default:
 		return "🌃 Khuya rồi! Nghỉ ngơi đi coder ơi!"
@@ -55,43 +47,33 @@ func getGreeting(hour int) string {
 }
 
 func main() {
-	loc, err := time.LoadLocation("Asia/Ho_Chi_Minh")
-	if err != nil {
-		loc = time.UTC
-		fmt.Println("Error loading timezone, using UTC instead:", err)
-	}
-
+	loc, _ := time.LoadLocation("Asia/Ho_Chi_Minh")
 	now := time.Now().In(loc)
 	hour := now.Hour()
-
 	greeting := getGreeting(hour)
 
 	apiKey := os.Getenv("OPENWEATHERMAP_API_KEY")
 	city := "DaNang"
 	url := fmt.Sprintf("http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&appid=%s&lang=vi", city, apiKey)
 
-	weatherText := ""
-
-	client := &http.Client{Timeout: 10 * time.Second}
-	resp, err := client.Get(url)
-	if err == nil && resp.StatusCode == http.StatusOK {
+	var weatherText string
+	resp, err := http.Get(url)
+	if err == nil && resp.StatusCode == 200 {
 		defer resp.Body.Close()
-		
-		body, err := ioutil.ReadAll(resp.Body)
-		if err == nil {
-			var weatherResp WeatherResponse
-			err = json.Unmarshal(body, &weatherResp)
-			
-			if err == nil && len(weatherResp.Weather) > 0 {
-				currentTemp := weatherResp.Main.Temp
-				weatherID := weatherResp.Weather[0].ID
-				weatherIcon := getWeatherIcon(weatherID)
-				weatherText = fmt.Sprintf("# %s Đà Nẵng: %d°C\n", weatherIcon, int(currentTemp+0.5))
-			}
-		}
-	}
+		body, _ := ioutil.ReadAll(resp.Body)
 
-	if weatherText == "" {
+		var data map[string]interface{}
+		json.Unmarshal(body, &data)
+
+		mainData := data["main"].(map[string]interface{})
+		weatherArray := data["weather"].([]interface{})
+		weather := weatherArray[0].(map[string]interface{})
+
+		temp := int(mainData["temp"].(float64) + 0.5)
+		weatherID := int(weather["id"].(float64))
+		icon := getWeatherIcon(weatherID)
+		weatherText = fmt.Sprintf("# %s Đà Nẵng: %d°C\n", icon, temp)
+	} else {
 		weatherText = "# 🌡️ Đà Nẵng: Không thể lấy dữ liệu\n"
 	}
 
@@ -100,52 +82,47 @@ func main() {
 		fmt.Sprintf("### %s\n\n", greeting),
 	}
 
-	readmeContent, err := ioutil.ReadFile("README.md")
+	input, err := ioutil.ReadFile("README.md")
 	if err != nil {
-		fmt.Println("Error reading README.md:", err)
+		fmt.Println("Không thể đọc file README.md")
 		return
 	}
+	lines := strings.Split(string(input), "\n")
 
-	lines := strings.Split(string(readmeContent), "\n")
 	filteredContent := []string{}
-
 	skip := false
-	for i := 0; i < len(lines); i++ {
-		line := lines[i]
 
-		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") || 
-		   strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") || 
-		   strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") || 
-		   strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") {
+	for _, line := range lines {
+		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") || strings.HasPrefix(line, "# 🌧️") ||
+			strings.HasPrefix(line, "# ❄️") || strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") ||
+			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") ||
+			strings.HasPrefix(line, "# 🌅") || strings.HasPrefix(line, "# 🍜") || strings.HasPrefix(line, "# 🌞") ||
+			strings.HasPrefix(line, "# 🌙") || strings.HasPrefix(line, "# 🌃") {
 			skip = true
-
 			continue
 		}
-		
+		if skip && (strings.HasPrefix(line, "Thời tiết hiện tại ở") ||
+			strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") || strings.HasPrefix(line, "# 🌧️") ||
+			strings.HasPrefix(line, "# ❄️") || strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") ||
+			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️")) {
+			continue
+		}
 		if skip && strings.HasPrefix(line, "### ") {
-			if strings.Contains(line, "🌅") || strings.Contains(line, "🍜") || 
-			   strings.Contains(line, "🌞") || strings.Contains(line, "🌙") || 
-			   strings.Contains(line, "🌃") {
-				continue
-			}
+			continue
 		}
-
-		if skip && line == "" {
+		if skip && strings.TrimSpace(line) == "" {
 			skip = false
-			continue  
+			continue
 		}
-
-		if !skip {
-			filteredContent = append(filteredContent, line)
-		}
+		filteredContent = append(filteredContent, line)
 	}
 
 	finalContent := append(newContent, filteredContent...)
+	output := strings.Join(finalContent, "\n")
 
-	outputContent := strings.Join(finalContent, "\n")
-	err = ioutil.WriteFile("README.md", []byte(outputContent), 0644)
+	err = ioutil.WriteFile("README.md", []byte(output), 0644)
 	if err != nil {
-		fmt.Println("Error writing to README.md:", err)
+		fmt.Println("Không thể ghi file README.md")
 		return
 	}
 
