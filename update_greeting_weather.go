@@ -10,7 +10,6 @@ import (
 	"time"
 )
 
-// WeatherResponse represents the OpenWeatherMap API response structure
 type WeatherResponse struct {
 	Main struct {
 		Temp float64 `json:"temp"`
@@ -20,23 +19,23 @@ type WeatherResponse struct {
 	} `json:"weather"`
 }
 
-// getWeatherIcon returns the appropriate emoji based on weather ID
 func getWeatherIcon(weatherID int) string {
-	if weatherID >= 200 && weatherID <= 232 {
+	switch {
+	case weatherID >= 200 && weatherID <= 232:
 		return "⛈️"
-	} else if weatherID >= 300 && weatherID <= 321 {
+	case weatherID >= 300 && weatherID <= 321:
 		return "🌦️"
-	} else if weatherID >= 500 && weatherID <= 531 {
+	case weatherID >= 500 && weatherID <= 531:
 		return "🌧️"
-	} else if weatherID >= 600 && weatherID <= 622 {
+	case weatherID >= 600 && weatherID <= 622:
 		return "❄️"
-	} else if weatherID >= 701 && weatherID <= 781 {
+	case weatherID >= 701 && weatherID <= 781:
 		return "🌫️"
-	} else if weatherID == 800 {
+	case weatherID == 800:
 		return "☀️"
-	} else if weatherID >= 801 && weatherID <= 804 {
+	case weatherID >= 801 && weatherID <= 804:
 		return "☁️"
-	} else {
+	default:
 		return "🌡️"
 	}
 }
@@ -57,39 +56,28 @@ func getGreeting(hour int) string {
 }
 
 func main() {
-	loc, err := time.LoadLocation("Asia/Ho_Chi_Minh")
-	if err != nil {
-		loc = time.UTC
-		fmt.Println("Error loading timezone, using UTC instead:", err)
-	}
-
+	loc, _ := time.LoadLocation("Asia/Ho_Chi_Minh")
 	now := time.Now().In(loc)
 	hour := now.Hour()
 
 	greeting := getGreeting(hour)
 
 	apiKey := os.Getenv("OPENWEATHERMAP_API_KEY")
-	city := "DaNang"
+	city := "Da Nang"
 	url := fmt.Sprintf("http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&appid=%s&lang=vi", city, apiKey)
 
 	weatherText := ""
 
-	client := &http.Client{Timeout: 10 * time.Second}
-	resp, err := client.Get(url)
+	resp, err := http.Get(url)
 	if err == nil && resp.StatusCode == http.StatusOK {
 		defer resp.Body.Close()
-		
-		body, err := ioutil.ReadAll(resp.Body)
-		if err == nil {
-			var weatherResp WeatherResponse
-			err = json.Unmarshal(body, &weatherResp)
-			
-			if err == nil && len(weatherResp.Weather) > 0 {
-				currentTemp := weatherResp.Main.Temp
-				weatherID := weatherResp.Weather[0].ID
-				weatherIcon := getWeatherIcon(weatherID)
-				weatherText = fmt.Sprintf("# %s Đà Nẵng: %d°C\n", weatherIcon, int(currentTemp+0.5))
-			}
+		body, _ := ioutil.ReadAll(resp.Body)
+
+		var weatherResp WeatherResponse
+		if err := json.Unmarshal(body, &weatherResp); err == nil && len(weatherResp.Weather) > 0 {
+			temp := int(weatherResp.Main.Temp + 0.5)
+			icon := getWeatherIcon(weatherResp.Weather[0].ID)
+			weatherText = fmt.Sprintf("# %s Đà Nẵng: %d°C\n", icon, temp)
 		}
 	}
 
@@ -99,61 +87,48 @@ func main() {
 
 	newContent := []string{
 		weatherText,
-		fmt.Sprintf("### %s\n\n", greeting),
+		fmt.Sprintf("### %s\n", greeting),
+		"",
 	}
 
-	readmeContent, err := ioutil.ReadFile("README.md")
+	readme, err := ioutil.ReadFile("README.md")
 	if err != nil {
-		fmt.Println("Error reading README.md:", err)
+		fmt.Println("Không đọc được README.md:", err)
 		return
 	}
 
-	lines := strings.Split(string(readmeContent), "\n")
-	filteredContent := []string{}
-
+	lines := strings.Split(string(readme), "\n")
+	filtered := []string{}
 	skip := false
+
 	for _, line := range lines {
-		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") || 
-		   strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") || 
-		   strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") || 
-		   strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") ||
-		   strings.HasPrefix(line, "# 🌅") || strings.HasPrefix(line, "# 🍜") || 
-		   strings.HasPrefix(line, "# 🌞") || strings.HasPrefix(line, "# 🌙") || 
-		   strings.HasPrefix(line, "# 🌃") {
+		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") ||
+			strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") ||
+			strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") ||
+			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") ||
+			strings.HasPrefix(line, "# 🌅") || strings.HasPrefix(line, "# 🍜") ||
+			strings.HasPrefix(line, "# 🌞") || strings.HasPrefix(line, "# 🌙") ||
+			strings.HasPrefix(line, "# 🌃") || strings.HasPrefix(line, "### ") {
 			skip = true
 			continue
 		}
-		
-		if skip && (strings.HasPrefix(line, "Thời tiết hiện tại ở") || 
-			strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") || 
-			strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") || 
-			strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") || 
-			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️")) {
-			continue
-		}
-		
-		if skip && strings.HasPrefix(line, "### ") {
-			continue
-		}
-		
-		if skip && line == "" {
+		if skip && strings.TrimSpace(line) == "" {
 			skip = false
 			continue
 		}
-		
-		filteredContent = append(filteredContent, line)
+		if !skip {
+			filtered = append(filtered, line)
+		}
 	}
 
-	var finalContent []string
-	finalContent = append(finalContent, newContent...)
-	finalContent = append(finalContent, filteredContent...)
+	final := append(newContent, filtered...)
+	output := strings.Join(final, "\n")
 
-	outputContent := strings.Join(finalContent, "\n")
-	err = ioutil.WriteFile("README.md", []byte(outputContent), 0644)
+	err = ioutil.WriteFile("README.md", []byte(output), 0644)
 	if err != nil {
-		fmt.Println("Error writing to README.md:", err)
+		fmt.Println("Không thể ghi file:", err)
 		return
 	}
 
-	fmt.Println("README.md đã được cập nhật!")
+	fmt.Println("✅ README.md đã được cập nhật!")
 }
