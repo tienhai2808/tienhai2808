@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -20,22 +21,21 @@ type WeatherResponse struct {
 }
 
 func getWeatherIcon(weatherID int) string {
-	switch {
-	case weatherID >= 200 && weatherID <= 232:
+	if weatherID >= 200 && weatherID <= 232 {
 		return "⛈️"
-	case weatherID >= 300 && weatherID <= 321:
+	} else if weatherID >= 300 && weatherID <= 321 {
 		return "🌦️"
-	case weatherID >= 500 && weatherID <= 531:
+	} else if weatherID >= 500 && weatherID <= 531 {
 		return "🌧️"
-	case weatherID >= 600 && weatherID <= 622:
+	} else if weatherID >= 600 && weatherID <= 622 {
 		return "❄️"
-	case weatherID >= 701 && weatherID <= 781:
+	} else if weatherID >= 701 && weatherID <= 781 {
 		return "🌫️"
-	case weatherID == 800:
+	} else if weatherID == 800 {
 		return "☀️"
-	case weatherID >= 801 && weatherID <= 804:
+	} else if weatherID >= 801 && weatherID <= 804 {
 		return "☁️"
-	default:
+	} else {
 		return "🌡️"
 	}
 }
@@ -56,7 +56,12 @@ func getGreeting(hour int) string {
 }
 
 func main() {
-	loc, _ := time.LoadLocation("Asia/Ho_Chi_Minh")
+	loc, err := time.LoadLocation("Asia/Ho_Chi_Minh")
+	if err != nil {
+		loc = time.UTC
+		fmt.Println("Error loading timezone, using UTC instead:", err)
+	}
+
 	now := time.Now().In(loc)
 	hour := now.Hour()
 
@@ -68,16 +73,22 @@ func main() {
 
 	weatherText := ""
 
-	resp, err := http.Get(url)
+	client := &http.Client{Timeout: 10 * time.Second}
+	resp, err := client.Get(url)
 	if err == nil && resp.StatusCode == http.StatusOK {
 		defer resp.Body.Close()
-		body, _ := ioutil.ReadAll(resp.Body)
-
-		var weatherResp WeatherResponse
-		if err := json.Unmarshal(body, &weatherResp); err == nil && len(weatherResp.Weather) > 0 {
-			temp := int(weatherResp.Main.Temp + 0.5)
-			icon := getWeatherIcon(weatherResp.Weather[0].ID)
-			weatherText = fmt.Sprintf("# %s Đà Nẵng: %d°C\n", icon, temp)
+		
+		body, err := ioutil.ReadAll(resp.Body)
+		if err == nil {
+			var weatherResp WeatherResponse
+			err = json.Unmarshal(body, &weatherResp)
+			
+			if err == nil && len(weatherResp.Weather) > 0 {
+				currentTemp := weatherResp.Main.Temp
+				weatherID := weatherResp.Weather[0].ID
+				weatherIcon := getWeatherIcon(weatherID)
+				weatherText = fmt.Sprintf("# %s Đà Nẵng: %d°C\n", weatherIcon, int(currentTemp+0.5))
+			}
 		}
 	}
 
@@ -87,48 +98,78 @@ func main() {
 
 	newContent := []string{
 		weatherText,
-		fmt.Sprintf("### %s\n", greeting),
-		"",
+		fmt.Sprintf("### %s\n\n", greeting),
 	}
 
-	readme, err := ioutil.ReadFile("README.md")
+	file, err := os.Open("README.md")
 	if err != nil {
-		fmt.Println("Không đọc được README.md:", err)
+		fmt.Println("Error opening README.md:", err)
+		return
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	var lines []string
+	for scanner.Scan() {
+		lines = append(lines, scanner.Text())
+	}
+
+	if err := scanner.Err(); err != nil {
+		fmt.Println("Error reading file:", err)
 		return
 	}
 
-	lines := strings.Split(string(readme), "\n")
-	filtered := []string{}
+	var filteredContent []string
 	skip := false
-
 	for _, line := range lines {
 		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") ||
 			strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") ||
 			strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") ||
-			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") ||
-			strings.HasPrefix(line, "# 🌅") || strings.HasPrefix(line, "# 🍜") ||
-			strings.HasPrefix(line, "# 🌞") || strings.HasPrefix(line, "# 🌙") ||
-			strings.HasPrefix(line, "# 🌃") || strings.HasPrefix(line, "### ") {
+			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") {
 			skip = true
 			continue
 		}
-		if skip && strings.TrimSpace(line) == "" {
+
+		if skip && strings.HasPrefix(line, "### ") {
+			continue
+		}
+
+		if skip && line == "" {
 			skip = false
 			continue
 		}
+
 		if !skip {
-			filtered = append(filtered, line)
+			filteredContent = append(filteredContent, line)
 		}
 	}
 
-	final := append(newContent, filtered...)
-	output := strings.Join(final, "\n")
+	var finalContent []string
+	for _, line := range newContent {
+		finalContent = append(finalContent, strings.TrimRight(line, "\n"))
+	}
+	finalContent = append(finalContent, filteredContent...)
 
-	err = ioutil.WriteFile("README.md", []byte(output), 0644)
+	outputFile, err := os.Create("README.md")
 	if err != nil {
-		fmt.Println("Không thể ghi file:", err)
+		fmt.Println("Error creating output file:", err)
+		return
+	}
+	defer outputFile.Close()
+
+	writer := bufio.NewWriter(outputFile)
+	for i, line := range finalContent {
+		fmt.Fprintln(writer, line)
+		if i == len(finalContent)-1 && line == "" {
+			continue
+		}
+	}
+
+	err = writer.Flush()
+	if err != nil {
+		fmt.Println("Error writing to file:", err)
 		return
 	}
 
-	fmt.Println("✅ README.md đã được cập nhật!")
+	fmt.Println("README.md đã được cập nhật!")
 }
