@@ -108,7 +108,7 @@ func main() {
 
 	newLines := []string{weatherText, greeting}
 	finalContent := append(newLines, filteredLines...)
-	output := strings.Join(finalContent, "\n")
+	output := strings.Join(finalContent, "")
 
 	err = ioutil.WriteFile("README.md", []byte(output), 0644)
 	if err != nil {
