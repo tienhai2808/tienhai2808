@@ -68,7 +68,7 @@ func main() {
 
 	// Get weather data
 	apiKey := os.Getenv("OPENWEATHERMAP_API_KEY")
-	city := "Da Nang"
+	city := "DaNang"
 	url := fmt.Sprintf("http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&appid=%s&lang=vi", city, apiKey)
 
 	var weatherText string
@@ -110,41 +110,49 @@ func main() {
 	// Filter content
 	var filteredContent []string
 	skip := false
-	for _, line := range lines {
-		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") ||
-			strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") ||
-			strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") ||
-			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") ||
-			strings.HasPrefix(line, "# 🌅") || strings.HasPrefix(line, "# 🍜") ||
-			strings.HasPrefix(line, "# 🌞") || strings.HasPrefix(line, "# 🌙") ||
-			strings.HasPrefix(line, "# 🌃") {
+	for i := 0; i < len(lines); i++ {
+		line := lines[i]
+		
+		// Kiểm tra các dòng thời tiết/thời gian để bắt đầu bỏ qua
+		if strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") || 
+		   strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") || 
+		   strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") || 
+		   strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️") {
 			skip = true
+			
+			// Bỏ qua dòng hiện tại và tiếp tục lặp
 			continue
 		}
-		if skip && (strings.HasPrefix(line, "Thời tiết hiện tại ở") ||
-			strings.HasPrefix(line, "# ⛈️") || strings.HasPrefix(line, "# 🌦️") ||
-			strings.HasPrefix(line, "# 🌧️") || strings.HasPrefix(line, "# ❄️") ||
-			strings.HasPrefix(line, "# 🌫️") || strings.HasPrefix(line, "# ☀️") ||
-			strings.HasPrefix(line, "# ☁️") || strings.HasPrefix(line, "# 🌡️")) {
-			continue
-		}
+		
+		// Nếu đang trong chế độ bỏ qua và gặp dòng greeting
 		if skip && strings.HasPrefix(line, "### ") {
-			continue
+			// Kiểm tra nếu là dòng greeting có emoji thời gian
+			if strings.Contains(line, "🌅") || strings.Contains(line, "🍜") || 
+			   strings.Contains(line, "🌞") || strings.Contains(line, "🌙") || 
+			   strings.Contains(line, "🌃") {
+				continue
+			}
 		}
-		if skip && strings.TrimSpace(line) == "" {
+		
+		// Thoát chế độ bỏ qua khi gặp dòng trống sau các phần cần bỏ qua
+		if skip && line == "" {
 			skip = false
-			continue
+			continue  // Bỏ qua dòng trống này
 		}
-		filteredContent = append(filteredContent, line)
+		
+		// Nếu không trong chế độ bỏ qua, thêm dòng vào nội dung đã lọc
+		if !skip {
+			filteredContent = append(filteredContent, line)
+		}
 	}
 
-	// Combine new and filtered content
+	// Kết hợp nội dung mới và nội dung đã lọc
 	finalContent := append(newContent, filteredContent...)
 
-	// Write to README.md
-	err = ioutil.WriteFile("README.md", []byte(strings.Join(finalContent, "\n")), 0644)
+	outputContent := strings.Join(finalContent, "\n")
+	err = ioutil.WriteFile("README.md", []byte(outputContent), 0644)
 	if err != nil {
-		fmt.Println("Error writing README.md:", err)
+		fmt.Println("Error writing to README.md:", err)
 		return
 	}
 
