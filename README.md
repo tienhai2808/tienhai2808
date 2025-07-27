@@ -2,9 +2,6 @@
 
 ### 🌙 Chào buổi tối! Push code xong thì đi ngủ sớm nhé!
 
----
-
-### 👻 GitHub Contributor Pacman:
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tienhai2808/tienhai2808/output/pacman-contribution-graph-dark.svg">
