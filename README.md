@@ -54,10 +54,3 @@
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" />
   </a>
 </div>
-
----
-
-### 🐍 GitHub Contribution Snake:
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tienhai2808/tienhai2808/output/snake.svg" alt="Snake animation" />
-</div>
