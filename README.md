@@ -1,6 +1,6 @@
-# ☁️ Đà Nẵng: 31°C
+# ☁️ Đà Nẵng: 30°C
 
-### 🍜 Chào buổi trưa! Nghỉ ngơi một chút rồi code tiếp nào!
+### 🌞 Chào buổi chiều! Hãy hoàn thành những dòng code cuối cùng!
 
 <div align="center">
   <picture>
