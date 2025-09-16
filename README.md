@@ -1,6 +1,6 @@
-# ☁️ Đà Nẵng: 28°C
+# 🌧️ Đà Nẵng: 25°C
 
-### 🌙 Chào buổi tối! Push code xong thì đi ngủ sớm nhé!
+### 🌃 Khuya rồi! Nghỉ ngơi đi coder ơi!
 
 <div align="center">
   <picture>
