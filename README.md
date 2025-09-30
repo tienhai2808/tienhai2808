@@ -41,13 +41,3 @@ $ projects --top10
   my_portfolio    4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 3.31 %
 ```
 <!--END_SECTION:dashboard-->
-
----
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tienhai2808/tienhai2808/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tienhai2808/tienhai2808/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/tienhai2808/tienhai2808/output/pacman-contribution-graph.svg">
-  </picture>
-</div>
