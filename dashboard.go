@@ -349,7 +349,7 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 			prefix = ">"
 		}
 
-		sb.WriteString(fmt.Sprintf("%s %-15s %-12s %s %.2f %%\n", prefix, l.name, sizeStr, barStr, l.pct))
+		sb.WriteString(fmt.Sprintf("%s %-20s %-12s %s %.2f %%\n", prefix, l.name, sizeStr, barStr, l.pct))
 	}
 	sb.WriteString("\n")
 
@@ -378,7 +378,7 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 
 			displayName := r.Name
 			if len(displayName) > 15 {
-				displayName = displayName[:12] + "..."
+				displayName = displayName[:15] + "..."
 			}
 
 			prefix := " "
@@ -386,7 +386,7 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 				prefix = ">"
 			}
 
-			sb.WriteString(fmt.Sprintf("%s %-15s %-12s %s %.2f %%\n", prefix, displayName, commitStr, barStr, pct))
+			sb.WriteString(fmt.Sprintf("%s %-20s %-12s %s %.2f %%\n", prefix, displayName, commitStr, barStr, pct))
 		}
 	}
 
