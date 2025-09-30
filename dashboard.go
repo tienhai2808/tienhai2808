@@ -301,8 +301,6 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 	for _, r := range repoActivity {
 		totalCommits += r.Commits
 	}
-	sb.WriteString("$ total commit --last-30-days\n")
-	sb.WriteString(fmt.Sprintf("> %d commits\n\n", totalCommits))
 
 	totalLang := 0
 	for _, size := range langStats {
@@ -323,12 +321,9 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 	sort.Slice(langs, func(i, j int) bool { return langs[i].pct > langs[j].pct })
 
 	sb.WriteString("$ languages --top5\n")
-	maxLangs := 5
-	if len(langs) < maxLangs {
-		maxLangs = len(langs)
-	}
+	maxLangs := min(len(langs), 5)
 
-	for i := 0; i < maxLangs; i++ {
+	for i := range maxLangs {
 		l := langs[i]
 		sizeKB := float64(l.size) / 1024
 		var sizeStr string
@@ -338,10 +333,7 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 			sizeStr = fmt.Sprintf("%.1f MB", sizeKB/1024)
 		}
 
-		bars := int(l.pct / 4)
-		if bars > 25 {
-			bars = 25
-		}
+		bars := min(int(l.pct / 4), 25)
 		barStr := strings.Repeat("█", bars) + strings.Repeat("░", 25-bars)
 
 		prefix := " "
@@ -354,21 +346,16 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 	sb.WriteString("\n")
 
 	sb.WriteString("$ projects --top10\n")
-	maxRepos := 10
-	if len(repoActivity) < maxRepos {
-		maxRepos = len(repoActivity)
-	}
+	maxRepos := min(len(repoActivity), 10)
 
 	if maxRepos == 0 {
 		sb.WriteString("> No commits in last 30 days\n")
 	} else {
-		maxCommitCount := repoActivity[0].Commits
-
-		for i := 0; i < maxRepos; i++ {
+		for i := range maxRepos {
 			r := repoActivity[i]
 			pct := float64(r.Commits) / float64(totalCommits) * 100
 
-			bars := int(float64(r.Commits) / float64(maxCommitCount) * 25)
+			bars := int(float64(r.Commits) / float64(totalCommits) * 25)
 			if bars == 0 && r.Commits > 0 {
 				bars = 1
 			}
