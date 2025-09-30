@@ -36,8 +36,8 @@ $ projects --top10
   post_service         11 commits   ███████████░░░░░░░░░░░░░░ 9.24 %
   user_service         9 commits    █████████░░░░░░░░░░░░░░░░ 7.56 %
   auth_service         8 commits    ████████░░░░░░░░░░░░░░░░░ 6.72 %
-  chat_service         6 commits    ██████░░░░░░░░░░░░░░░░░░░ 5.04 %
   ecom_go-be           6 commits    ██████░░░░░░░░░░░░░░░░░░░ 5.04 %
+  chat_service         6 commits    ██████░░░░░░░░░░░░░░░░░░░ 5.04 %
   tienhai2808          5 commits    █████░░░░░░░░░░░░░░░░░░░░ 4.20 %
 ```
 <!--END_SECTION:dashboard-->
