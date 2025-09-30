@@ -30,7 +30,7 @@ var (
 )
 
 type gqlRequest struct {
-	Query     string                 `json:"query"`
+	Query     string         `json:"query"`
 	Variables map[string]any `json:"variables"`
 }
 
@@ -282,6 +282,9 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 	sb.WriteString("$ whoami\n")
 	sb.WriteString("> Tien Hai Cao\n\n")
 
+	sb.WriteString("$ field\n")
+	sb.WriteString("> Backend Engineering, Distributed Systems, Cloud Infrastructure\n\n")
+
 	sb.WriteString("$ languages --list\n")
 	sb.WriteString("> Go, Java, Python, JavaScript, TypeScript\n\n")
 
@@ -292,7 +295,7 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 	sb.WriteString("> MongoDB, PostgreSQL, MySQL, Microsoft SQL Server, Redis\n\n")
 
 	sb.WriteString("$ tools --list\n")
-	sb.WriteString("> RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS\n\n")
+	sb.WriteString("> RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud\n\n")
 
 	totalCommits := 0
 	for _, r := range repoActivity {
@@ -341,7 +344,12 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 		}
 		barStr := strings.Repeat("█", bars) + strings.Repeat("░", 25-bars)
 
-		sb.WriteString(fmt.Sprintf("> %-15s %-12s %s %.2f %%\n", l.name, sizeStr, barStr, l.pct))
+		prefix := " "
+		if i == 0 {
+			prefix = ">"
+		}
+
+		sb.WriteString(fmt.Sprintf("%s %-15s %-12s %s %.2f %%\n", prefix, l.name, sizeStr, barStr, l.pct))
 	}
 	sb.WriteString("\n")
 
@@ -377,7 +385,7 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 			if i == 0 {
 				prefix = ">"
 			}
-			
+
 			sb.WriteString(fmt.Sprintf("%s %-15s %-12s %s %.2f %%\n", prefix, displayName, commitStr, barStr, pct))
 		}
 	}
