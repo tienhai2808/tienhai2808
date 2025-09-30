@@ -291,7 +291,7 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 	sb.WriteString("$ frameworks --list\n")
 	sb.WriteString("> ExpressJS, NestJS, ElysiaJS, Spring Boot, Django, FastAPI, Gin, Fiber\n\n")
 
-	sb.WriteString("$ database --list\n")
+	sb.WriteString("$ databases --list\n")
 	sb.WriteString("> MongoDB, PostgreSQL, MySQL, Microsoft SQL Server, Redis\n\n")
 
 	sb.WriteString("$ tools --list\n")
