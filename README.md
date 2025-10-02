@@ -19,22 +19,22 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   622.8 KB     ███████░░░░░░░░░░░░░░░░░░ 29.57 %
-  JavaScript           431.6 KB     █████░░░░░░░░░░░░░░░░░░░░ 20.50 %
-  Java                 400.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 19.00 %
-  TypeScript           328.1 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.58 %
-  Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 5.24 %
+> Go                   627.5 KB     ███████░░░░░░░░░░░░░░░░░░ 29.73 %
+  JavaScript           431.6 KB     █████░░░░░░░░░░░░░░░░░░░░ 20.45 %
+  Java                 400.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 18.96 %
+  TypeScript           328.1 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.55 %
+  Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 5.23 %
 
 $ projects --top10
-> somehow_microse...   24 commits   █████░░░░░░░░░░░░░░░░░░░░ 20.51 %
-  api_gateway          16 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 13.68 %
-  anonymous_fores...   15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.82 %
-  product_service      13 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.11 %
-  post_service         9 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.69 %
-  user_service         9 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.69 %
-  auth_service         8 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.84 %
-  tienhai2808          6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.13 %
-  ecom_go-be           6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.13 %
-  chat_service         6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.13 %
+> somehow_microse...   24 commits   █████░░░░░░░░░░░░░░░░░░░░ 20.34 %
+  api_gateway          16 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 13.56 %
+  anonymous_fores...   15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.71 %
+  product_service      13 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.02 %
+  post_service         9 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.63 %
+  user_service         9 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.63 %
+  auth_service         8 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.78 %
+  ecom_go-be           7 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.93 %
+  tienhai2808          6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.08 %
+  chat_service         6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.08 %
 ```
 <!--END_SECTION:dashboard-->
