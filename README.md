@@ -27,8 +27,8 @@ $ languages --top5
 
 $ projects --top10
 > somehow_microse...   23 commits   ████░░░░░░░░░░░░░░░░░░░░░ 19.66 %
-  anonymous_fores...   15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.82 %
   api_gateway          15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.82 %
+  anonymous_fores...   15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.82 %
   product_service      13 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.11 %
   post_service         9 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.69 %
   user_service         9 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.69 %
