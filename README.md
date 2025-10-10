@@ -33,8 +33,8 @@ $ projects --top10
   product_service      11 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 10.38 %
   user_service         7 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.60 %
   auth_service         7 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.60 %
-  post_service         6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.66 %
   tienhai2808          6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.66 %
+  post_service         6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.66 %
   my_portfolio         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.72 %
 ```
 <!--END_SECTION:dashboard-->
