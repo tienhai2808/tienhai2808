@@ -31,10 +31,10 @@ $ projects --top10
   somehow_microse...   15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.00 %
   api_gateway          12 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.00 %
   product_service      9 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.00 %
-  auth_service         6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.00 %
   tienhai2808          6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.00 %
+  auth_service         6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.00 %
+  my_portfolio         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
   user_service         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
   post_service         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
-  my_portfolio         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
 ```
 <!--END_SECTION:dashboard-->
