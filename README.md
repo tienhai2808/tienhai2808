@@ -29,12 +29,12 @@ $ projects --top10
 > ecom_go-be           21 commits   █████░░░░░░░░░░░░░░░░░░░░ 23.86 %
   anonymous_fores...   16 commits   ████░░░░░░░░░░░░░░░░░░░░░ 18.18 %
   somehow_microse...   11 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.50 %
-  api_gateway          8 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
   product_service      8 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
+  api_gateway          8 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
   tienhai2808          6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.82 %
-  auth_service         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.68 %
   my_portfolio         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.68 %
-  post_service         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
+  auth_service         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.68 %
   user_service         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
+  post_service         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
 ```
 <!--END_SECTION:dashboard-->
