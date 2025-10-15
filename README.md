@@ -26,15 +26,15 @@ $ languages --top5
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 5.09 %
 
 $ projects --top10
-> ecom_go-be           21 commits   ██████░░░░░░░░░░░░░░░░░░░ 25.00 %
-  anonymous_fores...   16 commits   ████░░░░░░░░░░░░░░░░░░░░░ 19.05 %
-  somehow_microse...   10 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.90 %
-  product_service      7 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.33 %
-  api_gateway          7 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.33 %
-  tienhai2808          6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.14 %
-  my_portfolio         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.95 %
-  auth_service         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.95 %
-  user_service         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.76 %
-  post_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.57 %
+> ecom_go-be           21 commits   ██████░░░░░░░░░░░░░░░░░░░ 25.61 %
+  anonymous_fores...   15 commits   ████░░░░░░░░░░░░░░░░░░░░░ 18.29 %
+  somehow_microse...   10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.20 %
+  api_gateway          7 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.54 %
+  product_service      7 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.54 %
+  tienhai2808          6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.32 %
+  auth_service         5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.10 %
+  user_service         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.88 %
+  my_portfolio         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.88 %
+  post_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.66 %
 ```
 <!--END_SECTION:dashboard-->
