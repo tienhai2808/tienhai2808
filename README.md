@@ -28,8 +28,8 @@ $ languages --top5
 $ projects --top10
 > ecom_go-be           21 commits   ████████░░░░░░░░░░░░░░░░░ 33.87 %
   anonymous_fores...   10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 16.13 %
-  somehow_microse...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
   tienhai2808          6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
+  somehow_microse...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
   api_gateway          5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.06 %
   my_portfolio         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.45 %
   user_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.84 %
