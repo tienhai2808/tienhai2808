@@ -30,10 +30,10 @@ $ projects --top10
   anonymous_fores...   9 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 15.52 %
   tienhai2808          6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.34 %
   somehow_microse...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.62 %
-  api_gateway          4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.90 %
   my_portfolio         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.90 %
-  auth_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.17 %
+  api_gateway          4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.90 %
   user_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.17 %
+  auth_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.17 %
   product_service      3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.17 %
 ```
 <!--END_SECTION:dashboard-->
