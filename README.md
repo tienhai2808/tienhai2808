@@ -33,8 +33,8 @@ $ projects --top10
   my_portfolio         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
   anonymous_fores...   4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
   api_gateway          4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
-  product_service      3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
   user_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
+  product_service      3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
   auth_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
 ```
 <!--END_SECTION:dashboard-->
