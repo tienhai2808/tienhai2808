@@ -30,11 +30,11 @@ $ projects --top10
   tienhai2808          6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.84 %
   aws_s3               6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.84 %
   somehow_microse...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.20 %
-  api_gateway          4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.56 %
   anonymous_fores...   4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.56 %
   my_portfolio         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.56 %
+  api_gateway          4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.56 %
+  product_service      3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.92 %
   auth_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.92 %
   user_service         3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.92 %
-  product_service      3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.92 %
 ```
 <!--END_SECTION:dashboard-->
