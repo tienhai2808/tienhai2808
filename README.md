@@ -27,8 +27,8 @@ $ languages --top5
 
 $ projects --top10
 > ecom_go-be           23 commits   █████████░░░░░░░░░░░░░░░░ 38.98 %
-  aws_s3               6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.17 %
   tienhai2808          6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.17 %
+  aws_s3               6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.17 %
   somehow_microse...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.47 %
   api_gateway          4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.78 %
   email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.08 %
