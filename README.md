@@ -27,14 +27,14 @@ $ languages --top5
 
 $ projects --top10
 > ecom_go-be           21 commits   ██████████░░░░░░░░░░░░░░░ 42.86 %
-  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.24 %
   tienhai2808          6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.24 %
+  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.24 %
   somehow_microse...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.12 %
   email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.12 %
   api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
   choose_right_ci...   2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
   product_service      2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
-  user_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.04 %
-  auth_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.04 %
+  my_portfolio         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.04 %
+  anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.04 %
 ```
 <!--END_SECTION:dashboard-->
