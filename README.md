@@ -31,10 +31,10 @@ $ projects --top10
   aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.24 %
   somehow_microse...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.12 %
   email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.12 %
-  api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
   choose_right_ci...   2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
+  api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
   product_service      2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
-  my_portfolio         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.04 %
   anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.04 %
+  user_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.04 %
 ```
 <!--END_SECTION:dashboard-->
