@@ -29,12 +29,12 @@ $ projects --top10
 > ecom_go-be           20 commits   ███████████░░░░░░░░░░░░░░ 46.51 %
   aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.95 %
   choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.30 %
-  email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.98 %
   somehow_microse...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.98 %
+  email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.98 %
   api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.65 %
   product_service      2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.65 %
-  anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.33 %
-  auth_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.33 %
   user_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.33 %
+  auth_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.33 %
+  anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.33 %
 ```
 <!--END_SECTION:dashboard-->
