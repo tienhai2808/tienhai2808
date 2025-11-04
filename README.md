@@ -19,22 +19,22 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   800.9 KB     ████████░░░░░░░░░░░░░░░░░ 34.80 %
-  JavaScript           435.4 KB     ████░░░░░░░░░░░░░░░░░░░░░ 18.92 %
-  Java                 400.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 17.38 %
-  TypeScript           340.9 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.81 %
-  Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.79 %
+> Go                   807.1 KB     ████████░░░░░░░░░░░░░░░░░ 34.97 %
+  JavaScript           435.4 KB     ████░░░░░░░░░░░░░░░░░░░░░ 18.87 %
+  Java                 400.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 17.34 %
+  TypeScript           340.9 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.77 %
+  Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.78 %
 
 $ projects --top10
-> ecom_go-be           16 commits   █████████░░░░░░░░░░░░░░░░ 36.36 %
-  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.64 %
-  instay-be            6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.64 %
-  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
-  somehow_microse...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.82 %
-  email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.82 %
-  product_service      2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
-  api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
-  user_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 %
-  auth_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 %
+> ecom_go-be           16 commits   ████████░░░░░░░░░░░░░░░░░ 35.56 %
+  instay-be            7 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 15.56 %
+  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.33 %
+  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.89 %
+  email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
+  somehow_microse...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
+  api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.44 %
+  product_service      2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.44 %
+  auth_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.22 %
+  user_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.22 %
 ```
 <!--END_SECTION:dashboard-->
