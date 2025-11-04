@@ -27,13 +27,13 @@ $ languages --top5
 
 $ projects --top10
 > ecom_go-be           16 commits   █████████░░░░░░░░░░░░░░░░ 36.36 %
-  instay-be            6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.64 %
   aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.64 %
+  instay-be            6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.64 %
   choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
   somehow_microse...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.82 %
   email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.82 %
-  api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
   product_service      2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
+  api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
   user_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 %
   auth_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 %
 ```
