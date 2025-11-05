@@ -31,7 +31,7 @@ $ projects --top10
   aws_s3               6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.22 %
   choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.81 %
   email_listener       3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.11 %
-  somehow_microse...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.70 %
   product_service      1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.70 %
+  somehow_microse...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.70 %
 ```
 <!--END_SECTION:dashboard-->
