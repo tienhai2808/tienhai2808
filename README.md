@@ -19,20 +19,19 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   807.1 KB     ████████░░░░░░░░░░░░░░░░░ 34.97 %
-  JavaScript           435.4 KB     ████░░░░░░░░░░░░░░░░░░░░░ 18.87 %
-  Java                 400.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 17.34 %
-  TypeScript           340.9 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.77 %
-  Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.78 %
+> Go                   819.0 KB     ████████░░░░░░░░░░░░░░░░░ 35.31 %
+  JavaScript           435.4 KB     ████░░░░░░░░░░░░░░░░░░░░░ 18.77 %
+  Java                 400.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 17.25 %
+  TypeScript           340.9 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.69 %
+  Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.75 %
 
 $ projects --top10
-> ecom_go-be           15 commits   █████████░░░░░░░░░░░░░░░░ 38.46 %
-  instay-be            7 commits    ████░░░░░░░░░░░░░░░░░░░░░ 17.95 %
-  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 15.38 %
-  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.26 %
-  email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.69 %
-  somehow_microse...   2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.13 %
-  api_gateway          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.56 %
-  product_service      1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.56 %
+> ecom_go-be           13 commits   ████████░░░░░░░░░░░░░░░░░ 35.14 %
+  instay-be            9 commits    ██████░░░░░░░░░░░░░░░░░░░ 24.32 %
+  aws_s3               6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.22 %
+  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.81 %
+  email_listener       3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.11 %
+  somehow_microse...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.70 %
+  product_service      1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.70 %
 ```
 <!--END_SECTION:dashboard-->
