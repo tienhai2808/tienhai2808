@@ -26,15 +26,13 @@ $ languages --top5
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.78 %
 
 $ projects --top10
-> ecom_go-be           16 commits   ████████░░░░░░░░░░░░░░░░░ 35.56 %
-  instay-be            7 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 15.56 %
-  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.33 %
-  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.89 %
-  somehow_microse...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
-  email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
-  api_gateway          2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.44 %
-  product_service      2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.44 %
-  auth_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.22 %
-  user_service         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.22 %
+> ecom_go-be           15 commits   █████████░░░░░░░░░░░░░░░░ 38.46 %
+  instay-be            7 commits    ████░░░░░░░░░░░░░░░░░░░░░ 17.95 %
+  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 15.38 %
+  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.26 %
+  email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.69 %
+  somehow_microse...   2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.13 %
+  api_gateway          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.56 %
+  product_service      1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.56 %
 ```
 <!--END_SECTION:dashboard-->
