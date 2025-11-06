@@ -26,12 +26,10 @@ $ languages --top5
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.75 %
 
 $ projects --top10
-> ecom_go-be           13 commits   ████████░░░░░░░░░░░░░░░░░ 35.14 %
-  instay-be            9 commits    ██████░░░░░░░░░░░░░░░░░░░ 24.32 %
-  aws_s3               6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.22 %
-  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.81 %
-  email_listener       3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.11 %
-  somehow_microse...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.70 %
-  product_service      1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.70 %
+> ecom_go-be           13 commits   █████████░░░░░░░░░░░░░░░░ 37.14 %
+  instay-be            9 commits    ██████░░░░░░░░░░░░░░░░░░░ 25.71 %
+  aws_s3               6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 17.14 %
+  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 11.43 %
+  email_listener       3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.57 %
 ```
 <!--END_SECTION:dashboard-->
