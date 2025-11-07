@@ -26,10 +26,10 @@ $ languages --top5
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.75 %
 
 $ projects --top10
-> ecom_go-be           12 commits   ████████░░░░░░░░░░░░░░░░░ 34.29 %
-  instay-be            10 commits   ███████░░░░░░░░░░░░░░░░░░ 28.57 %
-  aws_s3               6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 17.14 %
-  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 11.43 %
-  email_listener       3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.57 %
+> ecom_go-be           11 commits   ████████░░░░░░░░░░░░░░░░░ 32.35 %
+  instay-be            10 commits   ███████░░░░░░░░░░░░░░░░░░ 29.41 %
+  aws_s3               6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 17.65 %
+  choose_right_ci...   4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 11.76 %
+  email_listener       3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.82 %
 ```
 <!--END_SECTION:dashboard-->
