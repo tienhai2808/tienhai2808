@@ -27,8 +27,8 @@ $ languages --top5
 
 $ projects --top10
 > instay-be            23 commits   █████████████░░░░░░░░░░░░ 53.49 %
-  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.95 %
   ecom_go-be           6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.95 %
+  aws_s3               6 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.95 %
   choose_right_ci...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 11.63 %
   email_listener       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.98 %
 ```
