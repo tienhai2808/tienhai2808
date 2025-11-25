@@ -26,8 +26,8 @@ $ languages --top5
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.34 %
 
 $ projects --top10
-> instay-be            41 commits   ██████████████████████░░░ 89.13 %
-  choose_right_ci...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.52 %
-  ecom_go-be           2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.35 %
+> instay-be            41 commits   ██████████████████████░░░ 91.11 %
+  choose_right_ci...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
+  ecom_go-be           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.22 %
 ```
 <!--END_SECTION:dashboard-->
