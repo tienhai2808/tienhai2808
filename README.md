@@ -27,7 +27,7 @@ $ languages --top5
 
 $ projects --top10
 > instay-be            81 commits   ████████████████████████░ 97.59 %
-  choose_right_ci...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.20 %
   my_portfolio         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.20 %
+  choose_right_ci...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.20 %
 ```
 <!--END_SECTION:dashboard-->
