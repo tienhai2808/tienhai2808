@@ -26,7 +26,7 @@ $ languages --top5
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.10 %
 
 $ projects --top10
-> instay-be            73 commits   ████████████████████████░ 97.33 %
-  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.67 %
+> instay-be            71 commits   ████████████████████████░ 97.26 %
+  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.74 %
 ```
 <!--END_SECTION:dashboard-->
