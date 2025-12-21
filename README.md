@@ -19,15 +19,16 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   1.2 MB       ██████████░░░░░░░░░░░░░░░ 43.89 %
+> Go                   1.2 MB       ██████████░░░░░░░░░░░░░░░ 43.93 %
   JavaScript           437.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 16.19 %
   Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.06 %
-  TypeScript           344.5 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.76 %
+  TypeScript           343.9 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.74 %
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
 
 $ projects --top10
-> instay-be            67 commits   ███████████████████████░░ 95.71 %
+> instay-be            66 commits   ███████████████████████░░ 94.29 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.86 %
+  anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.43 %
   spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.43 %
 ```
 <!--END_SECTION:dashboard-->
