@@ -22,13 +22,13 @@ $ languages --top5
 > Go                   1.2 MB       ██████████░░░░░░░░░░░░░░░ 43.91 %
   JavaScript           437.1 KB     ████░░░░░░░░░░░░░░░░░░░░░ 16.18 %
   Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.05 %
-  TypeScript           345.2 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.78 %
+  TypeScript           345.3 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.78 %
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.08 %
 
 $ projects --top10
-> instay-be            58 commits   ██████████████████████░░░ 90.62 %
-  anonymous_fores...   3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.69 %
-  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.12 %
-  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.56 %
+> instay-be            56 commits   █████████████████████░░░░ 84.85 %
+  anonymous_fores...   7 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.61 %
+  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
+  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.52 %
 ```
 <!--END_SECTION:dashboard-->
