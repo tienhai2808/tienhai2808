@@ -26,10 +26,10 @@ $ languages --top5
   Python               110.3 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 4.05 %
 
 $ projects --top10
-> instay-be            29 commits   ██████████████░░░░░░░░░░░ 56.86 %
-  anonymous_fores...   10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 19.61 %
-  docker_docs          7 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.73 %
-  my_portfolio         4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.84 %
-  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.96 %
+> instay-be            28 commits   ██████████████░░░░░░░░░░░ 56.00 %
+  anonymous_fores...   10 commits   █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
+  docker_docs          7 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.00 %
+  my_portfolio         4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.00 %
+  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.00 %
 ```
 <!--END_SECTION:dashboard-->
