@@ -26,11 +26,11 @@ $ languages --top5
   Python               110.3 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.92 %
 
 $ projects --top10
-> hotel_pms-be         16 commits   ███████░░░░░░░░░░░░░░░░░░ 30.77 %
-  instay-be            12 commits   █████░░░░░░░░░░░░░░░░░░░░ 23.08 %
-  anonymous_fores...   11 commits   █████░░░░░░░░░░░░░░░░░░░░ 21.15 %
-  docker_docs          10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 19.23 %
-  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.85 %
-  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.92 %
+> hotel_pms-be         16 commits   ███████░░░░░░░░░░░░░░░░░░ 31.37 %
+  instay-be            11 commits   █████░░░░░░░░░░░░░░░░░░░░ 21.57 %
+  anonymous_fores...   11 commits   █████░░░░░░░░░░░░░░░░░░░░ 21.57 %
+  docker_docs          10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 19.61 %
+  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.92 %
+  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.96 %
 ```
 <!--END_SECTION:dashboard-->
