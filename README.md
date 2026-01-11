@@ -27,8 +27,8 @@ $ languages --top5
 
 $ projects --top10
 > hotel_pms-be         16 commits   ███████░░░░░░░░░░░░░░░░░░ 31.37 %
-  instay-be            11 commits   █████░░░░░░░░░░░░░░░░░░░░ 21.57 %
   anonymous_fores...   11 commits   █████░░░░░░░░░░░░░░░░░░░░ 21.57 %
+  instay-be            11 commits   █████░░░░░░░░░░░░░░░░░░░░ 21.57 %
   docker_docs          10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 19.61 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.92 %
   spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.96 %
