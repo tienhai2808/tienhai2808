@@ -19,16 +19,16 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   1.3 MB       ███████████░░░░░░░░░░░░░░ 45.86 %
-  JavaScript           442.1 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.50 %
-  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.25 %
-  TypeScript           345.3 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.10 %
-  Python               110.3 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.87 %
+> Go                   1.3 MB       ███████████░░░░░░░░░░░░░░ 45.88 %
+  JavaScript           442.1 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.48 %
+  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.23 %
+  TypeScript           345.3 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.08 %
+  Python               110.3 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.86 %
 
 $ projects --top10
-> instay_v2-be         24 commits   ██████████░░░░░░░░░░░░░░░ 40.00 %
-  instay_v1-be         12 commits   █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
+> instay_v2-be         25 commits   ██████████░░░░░░░░░░░░░░░ 41.67 %
   anonymous_fores...   11 commits   ████░░░░░░░░░░░░░░░░░░░░░ 18.33 %
+  instay_v1-be         11 commits   ████░░░░░░░░░░░░░░░░░░░░░ 18.33 %
   docker_docs          10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.33 %
   spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.67 %
