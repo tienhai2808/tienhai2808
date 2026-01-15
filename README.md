@@ -28,8 +28,8 @@ $ languages --top5
 $ projects --top10
 > instay_v2-be         25 commits   █████████░░░░░░░░░░░░░░░░ 39.06 %
   anonymous_fores...   11 commits   ████░░░░░░░░░░░░░░░░░░░░░ 17.19 %
-  instay_v1-be         10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.62 %
   docker_docs          10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.62 %
+  instay_v1-be         10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.62 %
   math_bridge-vib...   5 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.81 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.12 %
   spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.56 %
