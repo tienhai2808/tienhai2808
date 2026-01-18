@@ -29,10 +29,10 @@ $ projects --top10
 > instay_v2-be         27 commits   ██████████░░░░░░░░░░░░░░░ 43.55 %
   anonymous_fores...   11 commits   ████░░░░░░░░░░░░░░░░░░░░░ 17.74 %
   docker_docs          10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 16.13 %
-  math_bridge-vib...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.06 %
   instay_v1-be         5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.06 %
+  math_bridge-vib...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.06 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
-  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
   k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
+  spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
 ```
 <!--END_SECTION:dashboard-->
