@@ -32,7 +32,7 @@ $ projects --top10
   instay_v1-be         5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.06 %
   math_bridge-vib...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.06 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
-  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
   spend_guard          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
+  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
 ```
 <!--END_SECTION:dashboard-->
