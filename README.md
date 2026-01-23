@@ -26,12 +26,13 @@ $ languages --top5
   Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.79 %
 
 $ projects --top10
-> instay_v2-be         29 commits   ███████████░░░░░░░░░░░░░░ 46.03 %
-  docker_docs          10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.87 %
-  anonymous_fores...   9 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.29 %
-  instay_v1-be         6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.52 %
-  math_bridge-vib...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.52 %
-  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.17 %
-  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.59 %
+> instay_v2-be         29 commits   ███████████░░░░░░░░░░░░░░ 45.31 %
+  docker_docs          10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.62 %
+  anonymous_fores...   9 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.06 %
+  math_bridge-vib...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.38 %
+  instay_v1-be         6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.38 %
+  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.12 %
+  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.56 %
+  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.56 %
 ```
 <!--END_SECTION:dashboard-->
