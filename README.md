@@ -19,21 +19,21 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   1.3 MB       ███████████░░░░░░░░░░░░░░ 44.32 %
-  JavaScript           446.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.98 %
-  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.63 %
-  TypeScript           400.4 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.42 %
+> Go                   1.3 MB       ███████████░░░░░░░░░░░░░░ 44.29 %
+  JavaScript           446.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.96 %
+  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.62 %
+  TypeScript           402.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.49 %
   Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.74 %
 
 $ projects --top10
-> instay_v2-be         29 commits   ███████████░░░░░░░░░░░░░░ 44.62 %
-  docker_docs          10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.38 %
-  anonymous_fores...   9 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.85 %
-  instay_v1-be         6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.23 %
-  math_bridge-vib...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.23 %
-  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.08 %
-  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.54 %
-  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.54 %
-  portcmdr-vibe        1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.54 %
+> instay_v2-be         29 commits   ██████████░░░░░░░░░░░░░░░ 43.94 %
+  docker_docs          10 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.15 %
+  anonymous_fores...   9 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 13.64 %
+  instay_v1-be         6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
+  math_bridge-vib...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
+  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
+  portcmdr-vibe        2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
+  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.52 %
+  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.52 %
 ```
 <!--END_SECTION:dashboard-->
