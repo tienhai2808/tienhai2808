@@ -28,12 +28,12 @@ $ languages --top5
 $ projects --top10
 > instay_v2-be         30 commits   ████████████░░░░░░░░░░░░░ 48.39 %
   docker_docs          10 commits   ████░░░░░░░░░░░░░░░░░░░░░ 16.13 %
-  instay_v1-be         6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
   math_bridge-vib...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
+  instay_v1-be         6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
   anonymous_fores...   4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.45 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
   portcmdr-vibe        2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
-  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
   k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
+  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 1.61 %
 ```
 <!--END_SECTION:dashboard-->
