@@ -27,8 +27,8 @@ $ languages --top5
 
 $ projects --top10
 > docker_docs          10 commits   ████████░░░░░░░░░░░░░░░░░ 33.33 %
-  instay_v1-be         6 commits    █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
   math_bridge-vib...   6 commits    █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
+  instay_v1-be         6 commits    █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
   portcmdr-vibe        2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
   my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
   anonymous_fores...   2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
