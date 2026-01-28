@@ -26,13 +26,13 @@ $ languages --top5
   Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.91 %
 
 $ projects --top10
-> docker_docs          10 commits   ████████░░░░░░░░░░░░░░░░░ 33.33 %
-  math_bridge-vib...   6 commits    █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
-  instay_v1-be         6 commits    █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
-  portcmdr-vibe        2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
-  my_portfolio         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
-  anonymous_fores...   2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
-  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.33 %
-  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.33 %
+> docker_docs          10 commits   █████████░░░░░░░░░░░░░░░░ 38.46 %
+  math_bridge-vib...   6 commits    █████░░░░░░░░░░░░░░░░░░░░ 23.08 %
+  instay_v1-be         4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 15.38 %
+  portcmdr-vibe        2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.69 %
+  my_portfolio         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.85 %
+  anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.85 %
+  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.85 %
+  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.85 %
 ```
 <!--END_SECTION:dashboard-->
