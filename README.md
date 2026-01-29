@@ -30,8 +30,8 @@ $ projects --top10
   math_bridge-vib...   6 commits    ██████░░░░░░░░░░░░░░░░░░░ 24.00 %
   instay_v1-be         4 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.00 %
   portcmdr-vibe        2 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.00 %
+  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.00 %
   database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.00 %
   anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.00 %
-  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.00 %
 ```
 <!--END_SECTION:dashboard-->
