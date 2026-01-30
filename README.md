@@ -26,12 +26,12 @@ $ languages --top5
   Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.91 %
 
 $ projects --top10
-> docker_docs          8 commits    ████████░░░░░░░░░░░░░░░░░ 34.78 %
-  math_bridge-vib...   6 commits    ██████░░░░░░░░░░░░░░░░░░░ 26.09 %
-  instay_v1-be         4 commits    ████░░░░░░░░░░░░░░░░░░░░░ 17.39 %
-  portcmdr-vibe        2 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.70 %
-  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.35 %
-  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.35 %
-  anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.35 %
+> docker_docs          7 commits    ███████░░░░░░░░░░░░░░░░░░ 31.82 %
+  math_bridge-vib...   6 commits    ██████░░░░░░░░░░░░░░░░░░░ 27.27 %
+  instay_v1-be         4 commits    ████░░░░░░░░░░░░░░░░░░░░░ 18.18 %
+  portcmdr-vibe        2 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
+  anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
+  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
+  database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.55 %
 ```
 <!--END_SECTION:dashboard-->
