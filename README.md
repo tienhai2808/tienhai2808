@@ -30,8 +30,8 @@ $ projects --top10
   instay_v1-be         4 commits    █████░░░░░░░░░░░░░░░░░░░░ 21.05 %
   docker_docs          4 commits    █████░░░░░░░░░░░░░░░░░░░░ 21.05 %
   portcmdr-vibe        2 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.53 %
-  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.26 %
   database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.26 %
   anonymous_fores...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.26 %
+  k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.26 %
 ```
 <!--END_SECTION:dashboard-->
