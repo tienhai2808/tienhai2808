@@ -28,8 +28,8 @@ $ languages --top5
 $ projects --top10
 > math_bridge-vib...   6 commits    █████████░░░░░░░░░░░░░░░░ 37.50 %
   instay_v1-be         4 commits    ██████░░░░░░░░░░░░░░░░░░░ 25.00 %
-  docker_docs          2 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.50 %
   portcmdr-vibe        2 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.50 %
+  docker_docs          2 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.50 %
   k8s_docs             1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.25 %
   database_dev         1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.25 %
 ```
