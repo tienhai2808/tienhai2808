@@ -28,7 +28,7 @@ $ languages --top5
 $ projects --top10
 > instay_v1-be         4 commits    ████████████░░░░░░░░░░░░░ 50.00 %
   portcmdr-vibe        2 commits    ██████░░░░░░░░░░░░░░░░░░░ 25.00 %
-  database_dev         1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.50 %
   math_bridge-vib...   1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.50 %
+  database_dev         1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.50 %
 ```
 <!--END_SECTION:dashboard-->
