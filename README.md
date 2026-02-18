@@ -26,9 +26,8 @@ $ languages --top5
   Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.91 %
 
 $ projects --top10
-> instay_v1-be         3 commits    ██████████░░░░░░░░░░░░░░░ 42.86 %
-  portcmdr-vibe        2 commits    ███████░░░░░░░░░░░░░░░░░░ 28.57 %
-  database_dev         1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.29 %
-  math_bridge-vib...   1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.29 %
+> portcmdr-vibe        2 commits    ██████████░░░░░░░░░░░░░░░ 40.00 %
+  instay_v1-be         2 commits    ██████████░░░░░░░░░░░░░░░ 40.00 %
+  database_dev         1 commits    █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
 ```
 <!--END_SECTION:dashboard-->
