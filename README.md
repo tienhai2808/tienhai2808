@@ -26,6 +26,6 @@ $ languages --top5
   Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.92 %
 
 $ projects --top10
-> my_portfolio         6 commits    █████████████████████████ 100.00 %
+> my_portfolio         5 commits    █████████████████████████ 100.00 %
 ```
 <!--END_SECTION:dashboard-->
