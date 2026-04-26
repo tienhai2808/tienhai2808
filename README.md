@@ -19,15 +19,15 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   1.2 MB       ██████████░░░░░░░░░░░░░░░ 40.93 %
-  JavaScript           446.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.33 %
-  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.95 %
-  TypeScript           402.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.82 %
-  Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.83 %
+> Go                   1.2 MB       ██████████░░░░░░░░░░░░░░░ 41.01 %
+  JavaScript           446.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.36 %
+  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.98 %
+  TypeScript           402.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.84 %
+  Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.84 %
 
 $ projects --top10
-> stay_saga-user       4 commits    ██████████░░░░░░░░░░░░░░░ 40.00 %
-  my_portfolio         3 commits    ███████░░░░░░░░░░░░░░░░░░ 30.00 %
-  stay_saga-gatew...   3 commits    ███████░░░░░░░░░░░░░░░░░░ 30.00 %
+> stay_saga-user       5 commits    ██████████░░░░░░░░░░░░░░░ 41.67 %
+  stay_saga-gatew...   4 commits    ████████░░░░░░░░░░░░░░░░░ 33.33 %
+  my_portfolio         3 commits    ██████░░░░░░░░░░░░░░░░░░░ 25.00 %
 ```
 <!--END_SECTION:dashboard-->
