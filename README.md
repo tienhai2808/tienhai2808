@@ -28,7 +28,7 @@ $ languages --top5
 $ projects --top10
 > stay_saga-user       7 commits    █████████░░░░░░░░░░░░░░░░ 38.89 %
   stay_saga-gatew...   5 commits    ██████░░░░░░░░░░░░░░░░░░░ 27.78 %
-  my_portfolio         3 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
   stay_saga-commo...   3 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
+  my_portfolio         3 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
 ```
 <!--END_SECTION:dashboard-->
