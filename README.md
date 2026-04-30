@@ -7,16 +7,16 @@ $ field
 > Backend Engineering, Distributed Systems, Cloud Infrastructure
 
 $ languages --list
-> Go, Java, C#, Python, JavaScript, TypeScript
+> Go, Java, Python, JavaScript, TypeScript
 
 $ frameworks --list
-> ExpressJS, NestJS, ElysiaJS, Spring Boot, Django, FastAPI, Gin, Fiber, ASP.NET
+> ExpressJS, NestJS, ElysiaJS, Spring Boot, Django, FastAPI, Gin, Fiber
 
 $ databases --list
 > MongoDB, PostgreSQL, MySQL, Microsoft SQL Server, Redis
 
 $ tools --list
-> RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, GCP
+> RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
 > Go                   1.2 MB       ██████████░░░░░░░░░░░░░░░ 40.71 %
