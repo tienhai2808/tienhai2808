@@ -19,11 +19,11 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   1.1 MB       █████████░░░░░░░░░░░░░░░░ 39.44 %
-  JavaScript           446.9 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.31 %
-  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.93 %
-  TypeScript           402.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.80 %
-  Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.83 %
+> Go                   1.2 MB       ██████████░░░░░░░░░░░░░░░ 40.28 %
+  JavaScript           447.0 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 15.09 %
+  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.73 %
+  TypeScript           402.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.60 %
+  Python               111.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.77 %
 
 $ projects --top10
 > stay_saga-prope...   9 commits    ███████░░░░░░░░░░░░░░░░░░ 29.03 %
