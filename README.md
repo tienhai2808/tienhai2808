@@ -29,8 +29,8 @@ $ projects --top10
 > stay_saga-prope...   10 commits   ███████░░░░░░░░░░░░░░░░░░ 31.25 %
   stay_saga-user       8 commits    ██████░░░░░░░░░░░░░░░░░░░ 25.00 %
   stay_saga-gatew...   6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 18.75 %
-  my_portfolio         3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.38 %
   stay_saga-commo...   3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.38 %
+  my_portfolio         3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.38 %
   stay_saga-grpc       1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.12 %
   stay_saga-order      1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.12 %
 ```
