@@ -19,19 +19,20 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   1.2 MB       █████████░░░░░░░░░░░░░░░░ 38.75 %
-  JavaScript           447.0 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.51 %
-  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.21 %
-  TypeScript           402.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.08 %
-  C#                   224.9 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 7.30 %
+> Go                   1.2 MB       █████████░░░░░░░░░░░░░░░░ 38.56 %
+  JavaScript           447.0 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 14.44 %
+  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.14 %
+  TypeScript           402.8 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.01 %
+  C#                   240.0 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 7.75 %
 
 $ projects --top10
-> stay_saga-prope...   13 commits   ██████░░░░░░░░░░░░░░░░░░░ 27.08 %
-  stay_saga-user       11 commits   █████░░░░░░░░░░░░░░░░░░░░ 22.92 %
-  stay_saga-gatew...   8 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
-  stay_saga-commo...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.42 %
-  stay_saga-order      4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.33 %
-  quiz_forge-be        4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.33 %
-  stay_saga-grpc       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.25 %
+> stay_saga-prope...   13 commits   ██████░░░░░░░░░░░░░░░░░░░ 26.00 %
+  stay_saga-user       11 commits   █████░░░░░░░░░░░░░░░░░░░░ 22.00 %
+  stay_saga-gatew...   8 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.00 %
+  stay_saga-commo...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
+  stay_saga-order      5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
+  quiz_forge-be        4 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.00 %
+  stay_saga-grpc       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.00 %
+  stay_saga-payme...   1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 2.00 %
 ```
 <!--END_SECTION:dashboard-->
