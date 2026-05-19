@@ -19,21 +19,22 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> Go                   1.2 MB       █████████░░░░░░░░░░░░░░░░ 36.86 %
-  TypeScript           529.3 KB     ████░░░░░░░░░░░░░░░░░░░░░ 16.35 %
-  JavaScript           447.5 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.82 %
-  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.56 %
-  C#                   252.5 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 7.80 %
+> Go                   1.2 MB       █████████░░░░░░░░░░░░░░░░ 36.79 %
+  TypeScript           529.3 KB     ████░░░░░░░░░░░░░░░░░░░░░ 16.32 %
+  JavaScript           447.5 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 13.80 %
+  Java                 406.7 KB     ███░░░░░░░░░░░░░░░░░░░░░░ 12.54 %
+  C#                   253.6 KB     █░░░░░░░░░░░░░░░░░░░░░░░░ 7.82 %
 
 $ projects --top10
-> stay_saga-prope...   13 commits   █████░░░░░░░░░░░░░░░░░░░░ 21.67 %
-  stay_saga-user       12 commits   █████░░░░░░░░░░░░░░░░░░░░ 20.00 %
-  stay_saga-gatew...   9 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 15.00 %
-  stay_saga-commo...   6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
-  stay_saga-order      6 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
-  stay_saga-clien...   5 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.33 %
-  quiz_forge-be        4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
-  stay_saga-grpc       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.00 %
-  stay_saga-payme...   2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.33 %
+> stay_saga-user       20 commits   █████░░░░░░░░░░░░░░░░░░░░ 22.22 %
+  stay_saga-prope...   16 commits   ████░░░░░░░░░░░░░░░░░░░░░ 17.78 %
+  stay_saga-gatew...   11 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 12.22 %
+  stay_saga-order      9 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
+  stay_saga-infra      9 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
+  stay_saga-clien...   6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
+  stay_saga-payme...   6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
+  stay_saga-commo...   6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.67 %
+  quiz_forge-be        4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.44 %
+  stay_saga-grpc       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.33 %
 ```
 <!--END_SECTION:dashboard-->
