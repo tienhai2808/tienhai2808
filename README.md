@@ -34,7 +34,7 @@ $ projects --top10
   stay_saga-payme...   11 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 9.02 %
   stay_saga-clien...   10 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 8.20 %
   stay_saga-commo...   7 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 5.74 %
-  quiz_forge-be        4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.28 %
   stay_saga-grpc       4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.28 %
+  quiz_forge-be        4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.28 %
 ```
 <!--END_SECTION:dashboard-->
