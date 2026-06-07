@@ -26,15 +26,15 @@ $ languages --top5
   Java                 406.7 KB     ██░░░░░░░░░░░░░░░░░░░░░░░ 11.70 %
 
 $ projects --top10
-> stay_saga-user       16 commits   ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
-  stay_saga-infra      15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.62 %
-  stay_saga-order      11 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.46 %
-  stay_saga-payme...   11 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.46 %
-  stay_saga-prope...   10 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 10.42 %
-  stay_saga-clien...   10 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 10.42 %
-  stay_saga-gatew...   8 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.33 %
-  quiz_forge-be        8 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.33 %
-  stay_saga-commo...   4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.17 %
-  stay_saga-grpc       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.12 %
+> stay_saga-user       16 commits   ████░░░░░░░░░░░░░░░░░░░░░ 17.02 %
+  stay_saga-infra      15 commits   ███░░░░░░░░░░░░░░░░░░░░░░ 15.96 %
+  stay_saga-order      11 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.70 %
+  stay_saga-payme...   11 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 11.70 %
+  stay_saga-clien...   10 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 10.64 %
+  stay_saga-prope...   10 commits   ██░░░░░░░░░░░░░░░░░░░░░░░ 10.64 %
+  stay_saga-gatew...   8 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 8.51 %
+  quiz_forge-be        6 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.38 %
+  stay_saga-commo...   4 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 4.26 %
+  stay_saga-grpc       3 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.19 %
 ```
 <!--END_SECTION:dashboard-->
