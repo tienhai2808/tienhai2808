@@ -28,8 +28,8 @@ $ languages --top5
 $ projects --top10
 > quiz_forge-be        5 commits    ███████████░░░░░░░░░░░░░░ 45.45 %
   my_portfolio         3 commits    ██████░░░░░░░░░░░░░░░░░░░ 27.27 %
+  git_docs             1 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
   stay_saga-order      1 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
   stay_saga-clien...   1 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
-  git_docs             1 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
 ```
 <!--END_SECTION:dashboard-->
