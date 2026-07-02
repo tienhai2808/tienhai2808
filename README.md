@@ -26,10 +26,9 @@ $ languages --top5
   Java                 406.7 KB     ██░░░░░░░░░░░░░░░░░░░░░░░ 11.66 %
 
 $ projects --top10
-> my_portfolio         3 commits    ██████████░░░░░░░░░░░░░░░ 42.86 %
-  git_docs             1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.29 %
-  stay_saga-order      1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.29 %
-  quiz_forge-be        1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.29 %
-  stay_saga-clien...   1 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.29 %
+> my_portfolio         3 commits    ████████████░░░░░░░░░░░░░ 50.00 %
+  stay_saga-order      1 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
+  stay_saga-clien...   1 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
+  git_docs             1 commits    ████░░░░░░░░░░░░░░░░░░░░░ 16.67 %
 ```
 <!--END_SECTION:dashboard-->
