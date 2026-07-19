@@ -26,6 +26,6 @@ $ languages --top5
   Java                 406.7 KB     ██░░░░░░░░░░░░░░░░░░░░░░░ 11.66 %
 
 $ projects --top10
-> git_docs             1 commits    █████████████████████████ 100.00 %
+> No commits in last 30 days
 ```
 <!--END_SECTION:dashboard-->
