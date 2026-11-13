@@ -19,21 +19,21 @@ $ tools --list
 > RabbitMQ, Kafka, Docker, Jupyter Notebook, Ubuntu, AWS, Google Cloud
 
 $ languages --top5
-> C#                   8.1 MB       ████████████░░░░░░░░░░░░░ 51.71 %
-  TypeScript           3.0 MB       ████░░░░░░░░░░░░░░░░░░░░░ 18.94 %
-  Go                   2.8 MB       ████░░░░░░░░░░░░░░░░░░░░░ 17.65 %
-  JavaScript           593.9 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.69 %
-  Java                 406.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 2.52 %
+> C#                   10.9 MB      ██████████████░░░░░░░░░░░ 58.85 %
+  TypeScript           3.0 MB       ████░░░░░░░░░░░░░░░░░░░░░ 16.27 %
+  Go                   2.8 MB       ███░░░░░░░░░░░░░░░░░░░░░░ 14.94 %
+  JavaScript           593.9 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 3.12 %
+  Java                 406.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 2.14 %
 
 $ projects --top10
-> reality_loop-be      7 commits    █████░░░░░░░░░░░░░░░░░░░░ 22.58 %
-  reality_loop-fe      6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 19.35 %
-  instay-ai            6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 19.35 %
-  instay-be            4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.90 %
-  instay-fe            3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
-  instay-infra         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.45 %
-  instay-cqa           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
-  instay-ld            1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
-  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
+> reality_loop-be      8 commits    ██████░░░░░░░░░░░░░░░░░░░ 24.24 %
+  reality_loop-fe      7 commits    █████░░░░░░░░░░░░░░░░░░░░ 21.21 %
+  instay-ai            6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 18.18 %
+  instay-be            4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.12 %
+  instay-fe            3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
+  instay-infra         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.06 %
+  instay-cqa           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
+  instay-ld            1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
+  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
 ```
 <!--END_SECTION:dashboard-->
