@@ -286,10 +286,10 @@ func generateREADME(langStats map[string]int, repoActivity []RepoActivity) {
 	sb.WriteString("> Backend Engineering, Distributed Systems, Cloud Infrastructure\n\n")
 
 	sb.WriteString("$ languages --list\n")
-	sb.WriteString("> Go, Java, Python, JavaScript, TypeScript\n\n")
+	sb.WriteString("> Go, Java, C#, Python, JavaScript, TypeScript\n\n")
 
 	sb.WriteString("$ frameworks --list\n")
-	sb.WriteString("> ExpressJS, NestJS, ElysiaJS, Spring Boot, Django, FastAPI, Gin, Fiber\n\n")
+	sb.WriteString("> ExpressJS, Spring Boot, FastAPI, Gin, ASP.NET, Next.js\n\n")
 
 	sb.WriteString("$ databases --list\n")
 	sb.WriteString("> MongoDB, PostgreSQL, MySQL, Microsoft SQL Server, Redis\n\n")
