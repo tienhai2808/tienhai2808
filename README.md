@@ -26,14 +26,14 @@ $ languages --top5
   Java                 406.7 KB     ░░░░░░░░░░░░░░░░░░░░░░░░░ 2.14 %
 
 $ projects --top10
-> reality_loop-be      8 commits    ██████░░░░░░░░░░░░░░░░░░░ 24.24 %
-  reality_loop-fe      7 commits    █████░░░░░░░░░░░░░░░░░░░░ 21.21 %
-  instay-ai            6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 18.18 %
-  instay-be            4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.12 %
-  instay-fe            3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.09 %
-  instay-infra         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.06 %
-  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
-  instay-cqa           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
-  instay-ld            1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.03 %
+> reality_loop-be      7 commits    █████░░░░░░░░░░░░░░░░░░░░ 22.58 %
+  instay-ai            6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 19.35 %
+  reality_loop-fe      6 commits    ████░░░░░░░░░░░░░░░░░░░░░ 19.35 %
+  instay-be            4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.90 %
+  instay-fe            3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
+  instay-infra         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.45 %
+  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
+  instay-cqa           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
+  instay-ld            1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
 ```
 <!--END_SECTION:dashboard-->
