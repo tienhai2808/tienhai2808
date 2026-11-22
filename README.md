@@ -32,8 +32,8 @@ $ projects --top10
   instay-be            4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 12.90 %
   instay-fe            3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 9.68 %
   instay-infra         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 6.45 %
-  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
   instay-cqa           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
+  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
   instay-ld            1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.23 %
 ```
 <!--END_SECTION:dashboard-->
