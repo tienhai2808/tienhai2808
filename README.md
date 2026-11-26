@@ -28,12 +28,12 @@ $ languages --top5
 $ projects --top10
 > instay-ai            6 commits    █████░░░░░░░░░░░░░░░░░░░░ 22.22 %
   reality_loop-be      5 commits    ████░░░░░░░░░░░░░░░░░░░░░ 18.52 %
-  instay-be            4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.81 %
   reality_loop-fe      4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.81 %
+  instay-be            4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.81 %
   instay-fe            3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 11.11 %
   instay-infra         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.41 %
-  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
   instay-cqa           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
+  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
   instay-ld            1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
 ```
 <!--END_SECTION:dashboard-->
