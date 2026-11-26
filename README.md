@@ -32,8 +32,8 @@ $ projects --top10
   reality_loop-fe      4 commits    ███░░░░░░░░░░░░░░░░░░░░░░ 14.81 %
   instay-fe            3 commits    ██░░░░░░░░░░░░░░░░░░░░░░░ 11.11 %
   instay-infra         2 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 7.41 %
+  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
   instay-cqa           1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
   instay-ld            1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
-  tienhai2808          1 commits    █░░░░░░░░░░░░░░░░░░░░░░░░ 3.70 %
 ```
 <!--END_SECTION:dashboard-->
